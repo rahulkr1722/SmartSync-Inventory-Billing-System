@@ -5,30 +5,50 @@
 [![Open Issues](https://img.shields.io/github/issues/your-username/your-repo-name?style=for-the-badge)](https://github.com/your-username/your-repo-name/issues)
 [![License](https://img.shields.io/github/license/your-username/your-repo-name?style=for-the-badge)](./LICENSE)
 
-## Project Overview
+## Project Description
 
-The Smart Inventory and Billing System is a desktop application developed using Java and Swing for the graphical user interface. It aims to provide an efficient solution for managing inventory and generating bills for businesses. The system utilizes a MySQL database to store and retrieve data, and it includes modules for login, dashboard, product management, and billing. A detailed project report, including system analysis, diagrams, implementation details, and testing, is available in the `Documentation` folder.
+The SmartSync Inventory & Billing System is an all-in-one solution designed to automate and streamline inventory management and billing processes for small to medium-sized businesses. This project integrates both desktop and mobile platforms, developed with Java and Android Studio respectively, to provide a comprehensive tool for tracking inventory, managing sales, generating invoices, and optimizing business operations.
 
-## Features
+### **Key Features**
+- **Role-Based Access Control (Admin & Staff):** Secure login system with two types of user roles to ensure proper access control.
+- **Barcode Scanning Integration:** Facilitates quick and accurate inventory management through barcode scanning, minimizing human error and speeding up the process.
+- **Billing System:** Simplifies billing by automatically generating invoices and receipts with itemized details for every sale.
+- **Export to Excel:** Allows users to export transaction data and inventory lists to Excel for reporting and analysis.
+- **Dark Mode:** Improves user experience with a sleek and customizable dark mode.
+- **Offline Capability:** Continue using the application without an internet connection and sync data once back online.
+- **Product Management:** Users can add, update, or delete products from the inventory.
+- **Real-Time Stock Management:** Stock levels are updated automatically upon sale or purchase.
+- **Android Integration:** A fully functional mobile app version that syncs with the desktop application for seamless user experience across platforms.
 
-* **Login Module:** Secure user authentication to access the system.
-* **Dashboard:** Provides an overview of the system with key information.
-* **Product Management:**
-    * Add, edit, and delete product details (name, description, price, quantity).
-    * View and manage current stock levels.
-* **Billing Module:**
-    * Create new bills by selecting products and quantities.
-    * Automatic calculation of total amount.
-    * Generation of bills in PDF format using iText or JasperReports.
-* **MySQL Database Integration:** Persistent storage of application data (users, products, bills).
-* **Swing-based GUI:** User-friendly graphical interface for easy interaction.
+### **Technology Stack**
+- **Java (Desktop Application):** The core programming language used for developing the desktop version of the application.
+- **Android Studio (Mobile App):** Android-based mobile application built using Java.
+- **MySQL/Room Database:** Back-end database for storing user and product data, supporting both online and offline data handling.
+- **ZXing Barcode Scanner Library:** Used for barcode scanning functionality in both desktop and mobile applications.
+- **Apache POI Library:** For generating and exporting Excel files from the app.
+- **JavaFX (Desktop UI):** For building an interactive and user-friendly graphical interface for the desktop application.
+- **Android XML (Mobile UI):** Used for designing and implementing the mobile user interface.
 
-**Optional Add-ons (Implemented if applicable):**
+### **Modules**
+1. **Login Module:** Handles role-based login for Admin and Staff.
+2. **Inventory Management:** Enables adding, updating, and removing products from the inventory, and tracks stock levels.
+3. **Billing Module:** Creates invoices and manages transaction history.
+4. **Barcode Scanning:** Efficient product lookup using barcode scanning.
+5. **Data Export:** Export reports and transaction data to Excel for analysis.
+6. **Offline Mode:** Continue working in offline mode and synchronize data when the internet is available.
 
-* Barcode scanner integration (if implemented).
-* Daily/Monthly sales reports (if implemented).
-* Password reset using security questions (if implemented).
-* Dark mode UI tweak (if implemented).
+### **Future Enhancements**
+- **Cloud Integration:** Sync the system with a cloud database for seamless multi-location operations.
+- **Analytics & Reporting:** Adding advanced data analytics for tracking sales trends, customer behaviors, and inventory forecasts.
+- **Enhanced Security Features:** Multi-factor authentication, user audit logs, and role-specific permissions to improve system security.
+- **Mobile App Enhancements:** Further improve the mobile version with additional features such as push notifications for low stock alerts.
+
+### **Project Objectives**
+- Simplify and automate inventory and billing processes.
+- Provide a user-friendly interface for efficient business operations.
+- Enable businesses to generate and manage data reports seamlessly.
+- Optimize customer experience with features like barcode scanning and data export.
+
 
 ## Setup and Run Instructions
 
