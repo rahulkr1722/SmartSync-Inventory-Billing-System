@@ -38,10 +38,44 @@ The SmartSync Inventory & Billing System is an all-in-one solution designed to a
 6. **Offline Mode:** Continue working in offline mode and synchronize data when the internet is available.
 
 ### **Future Enhancements**
-- **Cloud Integration:** Sync the system with a cloud database for seamless multi-location operations.
-- **Analytics & Reporting:** Adding advanced data analytics for tracking sales trends, customer behaviors, and inventory forecasts.
-- **Enhanced Security Features:** Multi-factor authentication, user audit logs, and role-specific permissions to improve system security.
-- **Mobile App Enhancements:** Further improve the mobile version with additional features such as push notifications for low stock alerts.
+**1. ☁️ Cloud Database Integration**
+Shift from local databases to a cloud-based solution (e.g., Firebase, AWS, or Azure SQL) for real-time syncing between desktop and Android applications.
+
+Allow multi-location inventory management with centralized control.
+
+**2. 🔒 Two-Factor Authentication (2FA)**
+Strengthen security during login by adding **OTP-based** two-factor authentication using email or SMS.
+
+**3. 💵 Online Payment Integration**
+Enable customers to pay bills directly via popular **UPI**, **Paytm**, **Google Pay**, or **credit/debit cards** through the Android app.
+
+**4. 📊 Advanced Analytics Dashboard**
+Introduce graphical charts (using libraries like **JFreeChart** for Desktop and **MPAndroidChart** for Android) showing:
+
+Best-selling products
+
+Monthly sales reports
+
+Stock alerts for low inventory
+
+**5. 🌐 Web Portal Development**
+Develop a web-based admin dashboard for managing products, staff, sales reports, and customers online.
+
+**6. 📦 Bulk Product Upload**
+Allow uploading product lists via **CSV/Excel** files, making inventory setup quicker for large stores.
+
+**7. 📱 Push Notifications (Android)**
+Notify staff about **new product additions**, **low stock alerts**, or **important announcements** via in-app notifications.
+
+**8. 🎨 Custom Theme Manager**
+Let users choose or create **custom UI** themes apart from Light and Dark mode to personalize their experience.
+
+**9. 🏬 Customer Management System**
+Maintain a **customer database**, loyalty points, and generate invoices linked to customer profiles for better service.
+
+**10. 🛠️ Auto Software Updates**
+Add an automatic updater that checks for new software versions and patches to ensure users are always on the latest release.
+
 
 ### **Project Objectives**
 - Simplify and automate inventory and billing processes.
