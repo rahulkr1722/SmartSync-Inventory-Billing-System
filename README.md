@@ -7,7 +7,7 @@
 
 ## Project Description
 
-The SmartSync Inventory & Billing System is an all-in-one solution designed to automate and streamline inventory management and billing processes for small to medium-sized businesses. This project integrates both desktop and mobile platforms, developed with Java and Android Studio respectively, to provide a comprehensive tool for tracking inventory, managing sales, generating invoices, and optimizing business operations.
+The **SmartSync Inventory & Billing System** is an all-in-one solution designed to automate and streamline inventory management and billing processes for small to medium-sized businesses. This project integrates both **desktop and mobile platforms**, **developed with Java and Android Studio** respectively, to provide a comprehensive tool for tracking inventory, managing sales, generating invoices, and optimizing business operations.
 
 ### **Key Features**
 - **Role-Based Access Control (Admin & Staff):** Secure login system with two types of user roles to ensure proper access control.
